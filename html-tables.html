@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <table border="1px" width="100px">
+        <!-- TR = Table Rows -->
+        <!-- TD = Table Data -->
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Thead + Tbody+ TH = Table Header -->
+    <table border="1px" width="200px">
+        <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1>Colspan</h1>
+        <table border="1px" width="150px">
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Nicknames</th>
+                <!-- Affected Row -->
+            </tr>
+            <tr>
+                <td>Johnathan</td>
+                <td>John</td>
+                <td>Nathan</td>
+            </tr>
+            <tr>
+                <td>Elizabeth</td>
+                <td>Eli</td>
+                <td>Beth</td>
+            </tr>
+        </table>
+    </table>
+    <hr>
+        <table border="1px" width="200px">
+            <tr>
+                <th>Name</th>
+                <td>Bill</td>
+                <td>Steve</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Contact Numbers</th>
+                <!-- Affected Row -->
+                <td>12345</td>
+                <td>13579</td>
+            </tr>
+            <tr>
+                <td>13579</td>
+                <td>24680</td>
+            </tr>
+        </table>
+</body>
+</html>
