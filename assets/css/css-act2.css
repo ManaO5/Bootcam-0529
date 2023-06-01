@@ -1,0 +1,39 @@
+.main {
+    background-color: #e1dada;
+    height: 420px;
+    width: 500px;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.john-img {
+    margin-left: 1em;
+    margin-right:  1em;
+    float: left;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 0px black;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+
+.jane-img {    
+    float: left;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 0px black;
+    
+}
+
+#jane {
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+}

@@ -1,0 +1,59 @@
+#color {
+    color:red;
+    font-family: serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: left;
+    text-indent: 20px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+#rgb {
+    color: rgb(154, 76, 146);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-transform:lowercase;
+    text-decoration: line-through;
+    text-align: center;
+    text-shadow: 2px 2px 3px #f62812;
+    text-indent: 2em;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+#opacity {
+    opacity: .5;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: normal;
+    text-transform:capitalize;
+    text-decoration: underline;
+    text-align: right;
+    text-indent: 100px;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+}
+
+
+#rgba {
+    color: rgba(105, 95, 95, 0.5);
+    font-size: 50%;
+    font-weight: 500;
+    letter-spacing: 30px;
+    word-spacing: 30px;
+}
+
+#hexcode {
+    color: #5a9367;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 50px;
+    word-spacing: 40px;
+}

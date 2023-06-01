@@ -1,0 +1,43 @@
+body {
+    
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    width: 100%;
+}
+
+thead {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #ff7c7c;
+}
+
+.tr-1, .tr-3, .tr-5 {
+    background-color: rgb(251, 198, 164);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tr-2, .tr-4 {
+    padding: 2px;
+}
+
+.photo {
+    background-image: url('../images/icon.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.adress {
+    text-transform: uppercase;
+}
+
+.email {
+    color: blue;
+    text-decoration: underline;
+}

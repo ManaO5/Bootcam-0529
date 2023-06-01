@@ -1,0 +1,57 @@
+body {
+    background-color: chocolate;
+}
+
+.element-one {
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 15px;
+
+    border-width: 20px;
+    border-color: black;
+    border-style: solid;
+
+    border: 1px solid black;
+}
+
+#one {
+    border: 5px solid tomato;
+}
+
+#two {
+    border: 5px dotted teal;
+}
+
+#three {
+    border: 5px dashed crimson;
+}
+
+#four {
+    border: 5px groove purple;
+}
+
+#six {
+    border: 5px ridge gray;
+}
+
+#seven {
+    border: 5px inset dodgerblue;
+}
+
+#eight {
+    border: 5px outset goldenrod;
+}
+
+#nine {
+    border: 5px solid black;
+    border-radius: 150px;
+}
+
+.element-two {
+    width: 150px;
+    height: 150px;
+    overflow: scroll;
+    box-shadow: 10px 15px 10px 5px red;
+    margin-left: auto;
+    margin-right: auto;
+}
